@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: comic sans ms; 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aac789+0,437356+100 */
+background: #aac789; /* Old browsers */
+background: -moz-linear-gradient(top, #aac789 0%, #437356 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #aac789 0%,#437356 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #aac789 0%,#437356 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aac789', endColorstr='#437356',GradientType=0 ); /* IE6-9 */
+	
+}
+
+#container {
+	width: 980px;
+	margin: 30px auto;
+	border: solid 10px #1E4147;
+	background-color: #FAE3B4;
+	background-image: url(images/sun.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	
+	
+	
+}
+
+h1 {
+	font-family: comic sans ms;
+	font-weight: normal;
+	text-align: center;
+	font-size: 36px;
+	line-height: 56px;
+	padding: 0 0 20px 0;
+	
+}
+
+/* nav styles */
+#nav {
+	text-align: center;
+	height: 100px;
+	padding: 10px 0 0 0;
+	background-color: #;
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav ul li a {
+	font-size: 42px;
+	color: #1E4147;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #1E4147;
+	text-decoration: none;
+}
+
+#nav ul li a:hover,
+#nav ul li a:focus,
+#nav ul li a:active {
+	color: #06F;
+	text-decoration: underline;
+	cursor: crosshair;
+}
+
+ul.anchors {
+	margin:  10px 0 35px 20px;
+}
+
+ul.anchors li {
+	list-style-image: url(images/link.gif);
+	line-height: 24px;
+	font-size: 12px;
+}
+
+section img.gallery {
+	margin: 10px;
+	border: solid 1px #006;
+}
+
+img.postimg {
+	float: left; 
+	margin: 0 15px 5 px 0;
+	border: solid 1px #000;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+p {
+	font-size: 24px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
